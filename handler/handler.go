@@ -21,7 +21,7 @@ func Generate(s string) string {
 	var res string
 	var val int
 
-	//conversion to base 61 -> possible outcomes
+	//conversion to base 62 -> possible outcomes
 	for i := 0; i < (len(s)); i++ {
 		val = val + int(s[i])
 	}
